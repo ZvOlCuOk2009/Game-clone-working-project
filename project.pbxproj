@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7AD4EF1C3DE7EA007AD65B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AD4EE1C3DE7EA007AD65B /* SettingViewController.m */; };
+		FDCC3D131C3A819E0002C01C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC3D121C3A819E0002C01C /* main.m */; };
+		FDCC3D161C3A819E0002C01C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC3D151C3A819E0002C01C /* AppDelegate.m */; };
+		FDCC3D191C3A819E0002C01C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC3D181C3A819E0002C01C /* ViewController.m */; };
+		FDCC3D1E1C3A819F0002C01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCC3D1D1C3A819F0002C01C /* Assets.xcassets */; };
+		FDCC3D211C3A819F0002C01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCC3D1F1C3A819F0002C01C /* LaunchScreen.storyboard */; };
+		FDCC3D2C1C3A819F0002C01C /* Clone_Project_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC3D2B1C3A819F0002C01C /* Clone_Project_GameTests.m */; };
+		FDCC3D371C3A81A00002C01C /* Clone_Project_GameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC3D361C3A81A00002C01C /* Clone_Project_GameUITests.m */; };
+		FDCC3D491C3B1CCB0002C01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCC3D471C3B1CCB0002C01C /* Main.storyboard */; };
+		FDCC3D4C1C3B25E80002C01C /* FinishedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC3D4B1C3B25E80002C01C /* FinishedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDCC3D281C3A819F0002C01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCC3D061C3A819E0002C01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCC3D0D1C3A819E0002C01C;
+			remoteInfo = "Clone Project Game";
+		};
+		FDCC3D331C3A819F0002C01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCC3D061C3A819E0002C01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCC3D0D1C3A819E0002C01C;
+			remoteInfo = "Clone Project Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7AD4ED1C3DE7EA007AD65B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		FD7AD4EE1C3DE7EA007AD65B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		FDCC3D0E1C3A819E0002C01C /* Clone Project Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone Project Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCC3D121C3A819E0002C01C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCC3D141C3A819E0002C01C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDCC3D151C3A819E0002C01C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDCC3D171C3A819E0002C01C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDCC3D181C3A819E0002C01C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDCC3D1D1C3A819F0002C01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDCC3D201C3A819F0002C01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDCC3D221C3A819F0002C01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCC3D271C3A819F0002C01C /* Clone Project GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clone Project GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCC3D2B1C3A819F0002C01C /* Clone_Project_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clone_Project_GameTests.m; sourceTree = "<group>"; };
+		FDCC3D2D1C3A819F0002C01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCC3D321C3A819F0002C01C /* Clone Project GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clone Project GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCC3D361C3A81A00002C01C /* Clone_Project_GameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clone_Project_GameUITests.m; sourceTree = "<group>"; };
+		FDCC3D381C3A81A00002C01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCC3D481C3B1CCB0002C01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDCC3D4A1C3B25E80002C01C /* FinishedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishedViewController.h; sourceTree = "<group>"; };
+		FDCC3D4B1C3B25E80002C01C /* FinishedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCC3D0B1C3A819E0002C01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCC3D241C3A819F0002C01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCC3D2F1C3A819F0002C01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCC3D051C3A819E0002C01C = {
+			isa = PBXGroup;
+			children = (
+				FDCC3D101C3A819E0002C01C /* Clone Project Game */,
+				FDCC3D2A1C3A819F0002C01C /* Clone Project GameTests */,
+				FDCC3D351C3A81A00002C01C /* Clone Project GameUITests */,
+				FDCC3D0F1C3A819E0002C01C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCC3D0F1C3A819E0002C01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC3D0E1C3A819E0002C01C /* Clone Project Game.app */,
+				FDCC3D271C3A819F0002C01C /* Clone Project GameTests.xctest */,
+				FDCC3D321C3A819F0002C01C /* Clone Project GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCC3D101C3A819E0002C01C /* Clone Project Game */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC3D141C3A819E0002C01C /* AppDelegate.h */,
+				FDCC3D151C3A819E0002C01C /* AppDelegate.m */,
+				FDCC3D171C3A819E0002C01C /* ViewController.h */,
+				FDCC3D181C3A819E0002C01C /* ViewController.m */,
+				FDCC3D4A1C3B25E80002C01C /* FinishedViewController.h */,
+				FDCC3D4B1C3B25E80002C01C /* FinishedViewController.m */,
+				FD7AD4ED1C3DE7EA007AD65B /* SettingViewController.h */,
+				FD7AD4EE1C3DE7EA007AD65B /* SettingViewController.m */,
+				FDCC3D471C3B1CCB0002C01C /* Main.storyboard */,
+				FDCC3D1D1C3A819F0002C01C /* Assets.xcassets */,
+				FDCC3D1F1C3A819F0002C01C /* LaunchScreen.storyboard */,
+				FDCC3D221C3A819F0002C01C /* Info.plist */,
+				FDCC3D111C3A819E0002C01C /* Supporting Files */,
+			);
+			path = "Clone Project Game";
+			sourceTree = "<group>";
+		};
+		FDCC3D111C3A819E0002C01C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC3D121C3A819E0002C01C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDCC3D2A1C3A819F0002C01C /* Clone Project GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC3D2B1C3A819F0002C01C /* Clone_Project_GameTests.m */,
+				FDCC3D2D1C3A819F0002C01C /* Info.plist */,
+			);
+			path = "Clone Project GameTests";
+			sourceTree = "<group>";
+		};
+		FDCC3D351C3A81A00002C01C /* Clone Project GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC3D361C3A81A00002C01C /* Clone_Project_GameUITests.m */,
+				FDCC3D381C3A81A00002C01C /* Info.plist */,
+			);
+			path = "Clone Project GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCC3D0D1C3A819E0002C01C /* Clone Project Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCC3D3B1C3A81A00002C01C /* Build configuration list for PBXNativeTarget "Clone Project Game" */;
+			buildPhases = (
+				FDCC3D0A1C3A819E0002C01C /* Sources */,
+				FDCC3D0B1C3A819E0002C01C /* Frameworks */,
+				FDCC3D0C1C3A819E0002C01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clone Project Game";
+			productName = "Clone Project Game";
+			productReference = FDCC3D0E1C3A819E0002C01C /* Clone Project Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDCC3D261C3A819F0002C01C /* Clone Project GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCC3D3E1C3A81A00002C01C /* Build configuration list for PBXNativeTarget "Clone Project GameTests" */;
+			buildPhases = (
+				FDCC3D231C3A819F0002C01C /* Sources */,
+				FDCC3D241C3A819F0002C01C /* Frameworks */,
+				FDCC3D251C3A819F0002C01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCC3D291C3A819F0002C01C /* PBXTargetDependency */,
+			);
+			name = "Clone Project GameTests";
+			productName = "Clone Project GameTests";
+			productReference = FDCC3D271C3A819F0002C01C /* Clone Project GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDCC3D311C3A819F0002C01C /* Clone Project GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCC3D411C3A81A00002C01C /* Build configuration list for PBXNativeTarget "Clone Project GameUITests" */;
+			buildPhases = (
+				FDCC3D2E1C3A819F0002C01C /* Sources */,
+				FDCC3D2F1C3A819F0002C01C /* Frameworks */,
+				FDCC3D301C3A819F0002C01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCC3D341C3A819F0002C01C /* PBXTargetDependency */,
+			);
+			name = "Clone Project GameUITests";
+			productName = "Clone Project GameUITests";
+			productReference = FDCC3D321C3A819F0002C01C /* Clone Project GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCC3D061C3A819E0002C01C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tsvigun Alexandr";
+				TargetAttributes = {
+					FDCC3D0D1C3A819E0002C01C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5D7GRV784H;
+					};
+					FDCC3D261C3A819F0002C01C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5D7GRV784H;
+						TestTargetID = FDCC3D0D1C3A819E0002C01C;
+					};
+					FDCC3D311C3A819F0002C01C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5D7GRV784H;
+						TestTargetID = FDCC3D0D1C3A819E0002C01C;
+					};
+				};
+			};
+			buildConfigurationList = FDCC3D091C3A819E0002C01C /* Build configuration list for PBXProject "Clone Project Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCC3D051C3A819E0002C01C;
+			productRefGroup = FDCC3D0F1C3A819E0002C01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCC3D0D1C3A819E0002C01C /* Clone Project Game */,
+				FDCC3D261C3A819F0002C01C /* Clone Project GameTests */,
+				FDCC3D311C3A819F0002C01C /* Clone Project GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCC3D0C1C3A819E0002C01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC3D491C3B1CCB0002C01C /* Main.storyboard in Resources */,
+				FDCC3D211C3A819F0002C01C /* LaunchScreen.storyboard in Resources */,
+				FDCC3D1E1C3A819F0002C01C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCC3D251C3A819F0002C01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCC3D301C3A819F0002C01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCC3D0A1C3A819E0002C01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC3D4C1C3B25E80002C01C /* FinishedViewController.m in Sources */,
+				FDCC3D191C3A819E0002C01C /* ViewController.m in Sources */,
+				FDCC3D161C3A819E0002C01C /* AppDelegate.m in Sources */,
+				FDCC3D131C3A819E0002C01C /* main.m in Sources */,
+				FD7AD4EF1C3DE7EA007AD65B /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCC3D231C3A819F0002C01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC3D2C1C3A819F0002C01C /* Clone_Project_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCC3D2E1C3A819F0002C01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCC3D371C3A81A00002C01C /* Clone_Project_GameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCC3D291C3A819F0002C01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCC3D0D1C3A819E0002C01C /* Clone Project Game */;
+			targetProxy = FDCC3D281C3A819F0002C01C /* PBXContainerItemProxy */;
+		};
+		FDCC3D341C3A819F0002C01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCC3D0D1C3A819E0002C01C /* Clone Project Game */;
+			targetProxy = FDCC3D331C3A819F0002C01C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDCC3D1F1C3A819F0002C01C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCC3D201C3A819F0002C01C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FDCC3D471C3B1CCB0002C01C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCC3D481C3B1CCB0002C01C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCC3D391C3A81A00002C01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDCC3D3A1C3A81A00002C01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCC3D3C1C3A81A00002C01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Clone Project Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Clone-Project-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FDCC3D3D1C3A81A00002C01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Clone Project Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Clone-Project-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FDCC3D3F1C3A81A00002C01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Clone Project GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Clone-Project-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clone Project Game.app/Clone Project Game";
+			};
+			name = Debug;
+		};
+		FDCC3D401C3A81A00002C01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Clone Project GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Clone-Project-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clone Project Game.app/Clone Project Game";
+			};
+			name = Release;
+		};
+		FDCC3D421C3A81A00002C01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clone Project GameUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Clone-Project-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clone Project Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FDCC3D431C3A81A00002C01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clone Project GameUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsvigunalexandr.Clone-Project-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clone Project Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCC3D091C3A819E0002C01C /* Build configuration list for PBXProject "Clone Project Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC3D391C3A81A00002C01C /* Debug */,
+				FDCC3D3A1C3A81A00002C01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCC3D3B1C3A81A00002C01C /* Build configuration list for PBXNativeTarget "Clone Project Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC3D3C1C3A81A00002C01C /* Debug */,
+				FDCC3D3D1C3A81A00002C01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCC3D3E1C3A81A00002C01C /* Build configuration list for PBXNativeTarget "Clone Project GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC3D3F1C3A81A00002C01C /* Debug */,
+				FDCC3D401C3A81A00002C01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCC3D411C3A81A00002C01C /* Build configuration list for PBXNativeTarget "Clone Project GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCC3D421C3A81A00002C01C /* Debug */,
+				FDCC3D431C3A81A00002C01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCC3D061C3A819E0002C01C /* Project object */;
+}
